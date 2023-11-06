@@ -19,12 +19,17 @@ The checkmark display keeps track of completed work sessions, showing a checkmar
 To use this code, you need to have the tomato.png image file in the same directory as the script. 
 
 
-How to Use
+#How to Use
+
+
 Click the "Start" button to begin a work session. The timer will count down and display the remaining time.
 When the timer reaches 00:00, the script automatically starts the next interval (work, short break, or long break).
 Use the "Reset" button to stop the timer, reset the display, and clear completed work session checkmarks.
 
-Customization
+
+#Customization
+
+
 You can customize the following aspects of the timer by editing the script:
 Work session duration (in minutes): Change the WORK_MIN constant.
 Short break duration (in minutes): Change the SHORT_BREAK_MIN constant.
